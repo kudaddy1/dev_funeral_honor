@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_scope_privilege">
+    <sys_scope_privilege action="INSERT_OR_UPDATE">
+        <operation>execute</operation>
+        <source_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</source_scope>
+        <status>allowed</status>
+        <sys_class_name>sys_scope_privilege</sys_class_name>
+        <sys_created_by>bmorris</sys_created_by>
+        <sys_created_on>2023-01-11 20:28:41</sys_created_on>
+        <sys_id>0269a30a2f50211036f1265df699b666</sys_id>
+        <sys_name>Glide API: properties</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sys_scope_privilege_0269a30a2f50211036f1265df699b666</sys_update_name>
+        <target_name>Glide API: properties</target_name>
+        <target_scope display_value="Global">global</target_scope>
+        <target_type>scriptable</target_type>
+    </sys_scope_privilege>
+</record_update>

@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_header_footer">
+    <sp_header_footer action="INSERT_OR_UPDATE">
+        <category>sample</category>
+        <client_script><![CDATA[function() {
+  // widget controller
+  var c = this;
+}]]></client_script>
+        <controller_as>c</controller_as>
+        <css>.footer {&#13;
+  background-color: #1B2F4A; &#13;
+  color: #FFFFFF; &#13;
+}&#13;
+&#13;
+.copyright { &#13;
+  display: inline-block;&#13;
+  float: left;&#13;
+  padding: 20px;&#13;
+  width: 150px;&#13;
+}&#13;
+&#13;
+.links { &#13;
+  float: right; &#13;
+  color: #FFFFFF;&#13;
+  padding: 20px;&#13;
+  padding-left: 15px; &#13;
+}&#13;
+&#13;
+.link {&#13;
+  display: inline;&#13;
+  padding-right: 15px;&#13;
+}&#13;
+&#13;
+.link a{&#13;
+  width: auto; &#13;
+  font-size: 14px;&#13;
+  color: #FFFFFF;&#13;
+} </css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>false</has_preview>
+        <id>mfh-footer</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>mfh Footer</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+ data.time = new GlideDateTime().getDisplayValue();
+})();]]></script>
+        <servicenow>false</servicenow>
+        <static>false</static>
+        <sys_class_name>sp_header_footer</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 20:14:22</sys_created_on>
+        <sys_id>dc2627062f50211036f1265df699b6c7</sys_id>
+        <sys_name>mfh Footer</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_header_footer_dc2627062f50211036f1265df699b6c7</sys_update_name>
+        <template><![CDATA[<div class="footer" role="contentinfo">
+	<div class="copyright">&copy; 2023 DCIPS</div>
+	<div class="links">
+		<div class="link"><a href="https://dev61350.service-now.com/privacy-policy.html" target="_blank">Privacy Policy</a></div>
+		<div class="link"><a href="https://dev61350.service-now.com/contact-us.html" target="_blank">Contact Us</a></div>
+	</div>
+</div>]]></template>
+    </sp_header_footer>
+</record_update>

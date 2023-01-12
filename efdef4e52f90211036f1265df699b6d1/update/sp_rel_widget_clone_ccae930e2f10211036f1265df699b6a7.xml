@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_rel_widget_clone">
+    <sp_rel_widget_clone action="INSERT_OR_UPDATE">
+        <child display_value="mfh-simpleloginui">84ae930e2f10211036f1265df699b6a5</child>
+        <cloned>2023-01-11 19:41:35</cloned>
+        <last_validated>2023-01-11 19:41:35</last_validated>
+        <parent display_value="SimpleLoginUI">9f3719eab32003007a6de81816a8dcd1</parent>
+        <payload>&lt;?xml version="1.0" encoding="UTF-8"?&gt;&lt;sp_widget&gt;&lt;category&gt;sp_platform&lt;/category&gt;&lt;client_script&gt;&lt;![CDATA[function(glideUserSession, $sce, $window) {
+  var c = this;
+	var shared = c.widget.options.shared;
+
+	if (shared.externalLoginURL)
+		c.externalLoginURL = $sce.trustAsResourceUrl(shared.externalLoginURL);
+
+	c.username = shared.username ? shared.username : "";
+
+	c.onUsernameChange = function() {
+		shared.username = c.username;
+	}
+
+	c.onPasswordChange = function() {
+		shared.password = c.password;
+	}
+}]]&gt;&lt;/client_script&gt;&lt;controller_as&gt;c&lt;/controller_as&gt;&lt;css&gt;iframe {
+  width: 100%;
+  height: 500px;
+}
+
+.iframeDiv {
+	overflow-x: scroll;
+}&lt;/css&gt;&lt;data_table&gt;sp_instance&lt;/data_table&gt;&lt;demo_data/&gt;&lt;description/&gt;&lt;docs/&gt;&lt;field_list/&gt;&lt;has_preview&gt;false&lt;/has_preview&gt;&lt;id&gt;simpleloginui&lt;/id&gt;&lt;internal&gt;false&lt;/internal&gt;&lt;link/&gt;&lt;name&gt;SimpleLoginUI&lt;/name&gt;&lt;option_schema/&gt;&lt;public&gt;false&lt;/public&gt;&lt;roles&gt;snc_external,snc_internal&lt;/roles&gt;&lt;script&gt;&lt;![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]&gt;&lt;/script&gt;&lt;servicenow&gt;true&lt;/servicenow&gt;&lt;sys_class_name&gt;sp_widget&lt;/sys_class_name&gt;&lt;sys_created_by&gt;admin&lt;/sys_created_by&gt;&lt;sys_created_on&gt;2017-08-15 23:31:12&lt;/sys_created_on&gt;&lt;sys_id&gt;9f3719eab32003007a6de81816a8dcd1&lt;/sys_id&gt;&lt;sys_mod_count&gt;17&lt;/sys_mod_count&gt;&lt;sys_name&gt;SimpleLoginUI&lt;/sys_name&gt;&lt;sys_package display_value="Service Portal - Core" source="com.glide.service-portal"&gt;0e065aa0f9c211108c8bd16244dfe791&lt;/sys_package&gt;&lt;sys_policy/&gt;&lt;sys_scope display_value="Global"&gt;global&lt;/sys_scope&gt;&lt;sys_update_name&gt;sp_widget_9f3719eab32003007a6de81816a8dcd1&lt;/sys_update_name&gt;&lt;sys_updated_by&gt;admin&lt;/sys_updated_by&gt;&lt;sys_updated_on&gt;2018-11-12 23:39:03&lt;/sys_updated_on&gt;&lt;template&gt;&lt;![CDATA[&lt;div&gt;
+  &lt;div ng-if="c.externalLoginURL" class="iframeDiv"&gt;
+    &lt;iframe sandbox="allow-forms allow-scripts allow-same-origin" ng-src={{c.externalLoginURL}}&gt;&lt;/iframe&gt;
+  &lt;/div&gt;
+
+  &lt;div ng-if="!c.externalLoginURL" class="list-group list-group-sm"&gt;
+      &lt;div class="list-group-item"&gt;
+        &lt;label for="username" class="sr-only ng-binding"&gt;${User name}&lt;/label&gt;
+        &lt;input id="username" name="username" autocapitalize="off" class="form-control no-border ng-pristine ng-valid ng-empty ng-touched" type="text" placeholder="${User name}" autofocus="true" ng-model="c.username" ng-change="c.onUsernameChange()" role="textbox" aria-invalid="false"&gt;
+       &lt;/div&gt;
+       &lt;div class="list-group-item"&gt;
+        &lt;label for="password" class="sr-only ng-binding"&gt;${Password}&lt;/label&gt;
+        &lt;input id="password" name="password" class="form-control no-border ng-pristine ng-untouched ng-valid ng-empty" type="password" placeholder="${Password}" ng-model="c.password" role="textbox" ng-change="c.onPasswordChange()" aria-invalid="false"&gt;
+       &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/div&gt;]]&gt;&lt;/template&gt;&lt;/sp_widget&gt;</payload>
+        <sys_class_name>sp_rel_widget_clone</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-11 19:41:35</sys_created_on>
+        <sys_id>ccae930e2f10211036f1265df699b6a7</sys_id>
+        <sys_name>84ae930e2f10211036f1265df699b6a5</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_rel_widget_clone_ccae930e2f10211036f1265df699b6a7</sys_update_name>
+    </sp_rel_widget_clone>
+</record_update>
