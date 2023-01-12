@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container">
+    <sp_container action="DELETE">
+        <background_color/>
+        <background_image/>
+        <background_style>default</background_style>
+        <bootstrap_alt>false</bootstrap_alt>
+        <class_name/>
+        <container_class_name/>
+        <name>my template page - Container 2</name>
+        <order>2</order>
+        <sp_page display_value="my_template_page">cc7fb4692f90211036f1265df699b68a</sp_page>
+        <subheader>false</subheader>
+        <sys_class_name>sp_container</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-09 18:49:19</sys_created_on>
+        <sys_id>c37ff4692f90211036f1265df699b66a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>my template page - Container 2</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_container_c37ff4692f90211036f1265df699b66a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-09 18:49:19</sys_updated_on>
+        <title/>
+        <width>container</width>
+    </sp_container>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</application>
+        <file_path/>
+        <instance_id>0a1e6c88db32d740536ad5b0cf96191c</instance_id>
+        <instance_name>dev61350</instance_name>
+        <name>sp_container_c37ff4692f90211036f1265df699b66a</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_container"><sp_container action="INSERT_OR_UPDATE"><background_color/><background_image/><background_style>default</background_style><bootstrap_alt>false</bootstrap_alt><class_name/><container_class_name/><name>my template page - Container 2</name><order>2</order><sp_page display_value="my_template_page">cc7fb4692f90211036f1265df699b68a</sp_page><subheader>false</subheader><sys_class_name>sp_container</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-09 18:49:19</sys_created_on><sys_id>c37ff4692f90211036f1265df699b66a</sys_id><sys_mod_count>0</sys_mod_count><sys_name>my template page - Container 2</sys_name><sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package><sys_policy/><sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope><sys_update_name>sp_container_c37ff4692f90211036f1265df699b66a</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-09 18:49:19</sys_updated_on><title/><width>container</width></sp_container></record_update>]]></payload>
+        <payload_hash>-202704855</payload_hash>
+        <record_name>my template page - Container 2</record_name>
+        <reverted_from/>
+        <source>6fdef4e52f90211036f1265df699b6d3</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-09 18:49:19</sys_created_on>
+        <sys_id>0f7ff4692f90211036f1265df699b66b</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>18597dd96bb0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-09 18:49:19</sys_updated_on>
+        <type>Container</type>
+        <update_guid>477ff469bd902110d69093a386fb086b</update_guid>
+        <update_guid_history>477ff469bd902110d69093a386fb086b:-202704855</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="my template page - Container 2">608fb4692f90211036f1265df699b6cf</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-09 18:49:26</sys_created_on>
+        <sys_db_object display_value="" name="sp_container">sp_container</sys_db_object>
+        <sys_id>06e4856ad54b4d80830897b31e55e400</sys_id>
+        <sys_metadata>c37ff4692f90211036f1265df699b66a</sys_metadata>
+        <sys_name>my template page - Container 2</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_scope_delete display_value="">11c2586671fe4eb284b39a303775e1d9</sys_scope_delete>
+        <sys_update_name>sp_container_c37ff4692f90211036f1265df699b66a</sys_update_name>
+        <sys_update_version display_value="sp_container_c37ff4692f90211036f1265df699b66a">0f7ff4692f90211036f1265df699b66b</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

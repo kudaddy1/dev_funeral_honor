@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance">
+    <sp_instance action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <glyph/>
+        <id/>
+        <order>1</order>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">c04d1f8a2f10211036f1265df699b666</sp_column>
+        <sp_widget display_value="mfh-login">d22ddb8a2f10211036f1265df699b6ea</sp_widget>
+        <sys_class_name>sp_instance</sys_class_name>
+        <sys_created_by>bmorris</sys_created_by>
+        <sys_created_on>2023-01-11 20:37:55</sys_created_on>
+        <sys_id>5d8baf0a2f50211036f1265df699b617</sys_id>
+        <sys_name/>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_instance_5d8baf0a2f50211036f1265df699b617</sys_update_name>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance>
+    <sys_translated_text action="delete_multiple" query="documentkey=5d8baf0a2f50211036f1265df699b617"/>
+</record_update>
