@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist">
+    <sp_instance_vlist action="DELETE">
+        <active>true</active>
+        <class_name/>
+        <color>default</color>
+        <css/>
+        <display_field/>
+        <field_list/>
+        <filter/>
+        <glyph/>
+        <id/>
+        <maximum_entries>5</maximum_entries>
+        <order>2</order>
+        <order_by/>
+        <order_direction>asc</order_direction>
+        <roles/>
+        <short_description/>
+        <size>md</size>
+        <sp_column display_value="1">9f1d88ae2f50611036f1265df699b6e0</sp_column>
+        <sp_page/>
+        <sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget>
+        <sys_class_name>sp_instance_vlist</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 17:46:28</sys_created_on>
+        <sys_id>ebdd04ee2f50611036f1265df699b6f1</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name/>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_instance_vlist_ebdd04ee2f50611036f1265df699b6f1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 17:46:28</sys_updated_on>
+        <table/>
+        <title/>
+        <url/>
+        <widget_parameters/>
+    </sp_instance_vlist>
+    <sys_translated_text action="DELETE" query="documentkey=ebdd04ee2f50611036f1265df699b6f1"/>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</application>
+        <file_path/>
+        <instance_id>0a1e6c88db32d740536ad5b0cf96191c</instance_id>
+        <instance_name>dev61350</instance_name>
+        <name>sp_instance_vlist_ebdd04ee2f50611036f1265df699b6f1</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_instance_vlist"><sp_instance_vlist action="INSERT_OR_UPDATE"><active>true</active><class_name/><color>default</color><css/><display_field/><field_list/><filter/><glyph/><id/><maximum_entries>5</maximum_entries><order>2</order><order_by/><order_direction>asc</order_direction><roles/><short_description/><size>md</size><sp_column display_value="1">9f1d88ae2f50611036f1265df699b6e0</sp_column><sp_page/><sp_widget display_value="Simple List">5b255672cb03020000f8d856634c9c28</sp_widget><sys_class_name>sp_instance_vlist</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-12 17:46:28</sys_created_on><sys_id>ebdd04ee2f50611036f1265df699b6f1</sys_id><sys_mod_count>0</sys_mod_count><sys_name/><sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package><sys_policy/><sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope><sys_update_name>sp_instance_vlist_ebdd04ee2f50611036f1265df699b6f1</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-12 17:46:28</sys_updated_on><table/><title/><url/><widget_parameters/></sp_instance_vlist><sys_translated_text action="delete_multiple" query="documentkey=ebdd04ee2f50611036f1265df699b6f1"/></record_update>]]></payload>
+        <payload_hash>582980326</payload_hash>
+        <record_name/>
+        <reverted_from/>
+        <source>d68f9f162fdc211036f1265df699b6f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 17:46:28</sys_created_on>
+        <sys_id>63dd04ee2f50611036f1265df699b6f4</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185a71720530000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-12 17:46:28</sys_updated_on>
+        <type>Instance of Simple List</type>
+        <update_guid>abdd04eec5506110ab269533427f46f3</update_guid>
+        <update_guid_history>abdd04eec5506110ab269533427f46f3:582980326</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete display_value="">c8fd88ee2f50611036f1265df699b61f</sys_audit_delete>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-12 17:46:47</sys_created_on>
+        <sys_db_object display_value="" name="sp_instance_vlist">sp_instance_vlist</sys_db_object>
+        <sys_id>7725bd35c05c42d8925e5ea087f42fe4</sys_id>
+        <sys_metadata>ebdd04ee2f50611036f1265df699b6f1</sys_metadata>
+        <sys_name/>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_parent/>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_scope_delete display_value="">11c2586671fe4eb284b39a303775e1d9</sys_scope_delete>
+        <sys_update_name>sp_instance_vlist_ebdd04ee2f50611036f1265df699b6f1</sys_update_name>
+        <sys_update_version display_value="sp_instance_vlist_ebdd04ee2f50611036f1265df699b6f1">63dd04ee2f50611036f1265df699b6f4</sys_update_version>
+    </sys_metadata_delete>
+</record_update>

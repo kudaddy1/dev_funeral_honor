@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_ng_template">
+    <sp_ng_template action="INSERT_OR_UPDATE">
+        <id>mfh-privacy2</id>
+        <sp_widget display_value="mfh-login-2">85d160f62f50a11036f1265df699b662</sp_widget>
+        <sys_class_name>sp_ng_template</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-13 14:03:46</sys_created_on>
+        <sys_id>0b74a07a2f50a11036f1265df699b655</sys_id>
+        <sys_name>mfh-privacy2</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_ng_template_0b74a07a2f50a11036f1265df699b655</sys_update_name>
+        <template><![CDATA[<div>
+
+<h1>Privacy Statement 2</h1>
+
+<p>Jelly beans jelly beans oat cake icing halvah. Gummies apple pie dessert cake sugar plum macaroon. Powder powder muffin jelly beans sweet jelly halvah cheesecake. Cupcake topping topping lollipop carrot cake toffee cake shortbread. Chocolate cake liquorice sweet roll apple pie bonbon marshmallow. Jelly icing ice cream carrot cake topping chocolate bar cheesecake bear claw. Sweet roll brownie gingerbread topping jelly-o. Caramels marshmallow dessert cupcake soufflé danish. Halvah gummi bears donut cookie danish macaroon marshmallow donut. Apple pie sweet brownie candy ice cream macaroon gingerbread gingerbread croissant. Powder pastry dessert bonbon sweet cake gummies. Danish biscuit chupa chups dragée halvah marzipan brownie. Liquorice gummies tart gummi bears toffee pastry topping.</p>
+<p></p>
+<p>Sesame snaps jelly beans cookie marshmallow shortbread sesame snaps ice cream candy. Biscuit candy canes muffin candy canes sugar plum gummies. Marzipan apple pie cotton candy jelly beans oat cake macaroon tootsie roll jelly pastry. Lemon drops chocolate cake sesame snaps danish danish croissant powder. Dessert carrot cake caramels fruitcake tart lemon drops shortbread. Tootsie roll jelly-o pie sweet roll cookie chocolate bar. Liquorice wafer jelly-o caramels jelly topping toffee cupcake cupcake. Tart gummi bears topping liquorice candy canes muffin tootsie roll. Ice cream fruitcake topping topping jelly lemon drops. Liquorice dessert jelly-o sweet roll muffin carrot cake. Cake carrot cake jelly tart toffee sesame snaps soufflé brownie. Tart tootsie roll bonbon lemon drops chupa chups brownie. Bonbon dessert chocolate cake tiramisu dessert tart lemon drops. Sugar plum bear claw marshmallow gingerbread chocolate brownie cotton candy pie.</p>
+<p></p>
+<p>Dragée tart dragée cake sesame snaps. Jelly carrot cake gingerbread oat cake cake marzipan shortbread. Dessert dragée fruitcake macaroon jelly beans tart cheesecake jelly beans bonbon. Lollipop cookie pie sweet roll jujubes. Bear claw chocolate cake soufflé shortbread sesame snaps pie cheesecake chocolate cake. Wafer ice cream fruitcake toffee cupcake jelly-o topping shortbread lollipop. Oat cake marzipan chocolate sweet roll danish sweet roll marshmallow bonbon. Gummies carrot cake lemon drops bear claw pudding icing. Shortbread cookie lemon drops candy gummi bears brownie apple pie. Jelly bonbon muffin gummi bears jelly-o bonbon. Donut apple pie gingerbread topping donut. Jelly beans chocolate cake macaroon pastry sweet roll liquorice lollipop pastry. Apple pie dessert gummi bears lemon drops sesame snaps.</p>
+  
+<div class="d-flex justify-content-center mt-2" ng-click="c.showLoginTemplate()">  
+	<button id="continueLoginButton" type="button" class="btn btn-primary" ng-click="c.showLoginTemplate()">Continue to Login</button>
+</div>
+</div>]]></template>
+    </sp_ng_template>
+</record_update>

@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update sys_domain="global" table="sys_app_application">
+    <sys_app_application action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <category display_value="Custom Applications">e0355b31ef303000a61d5a3615c0fb78</category>
+        <description/>
+        <device_type>browser</device_type>
+        <hint/>
+        <name>FH Privacy Statement templates</name>
+        <order>100</order>
+        <roles>x_491306_fh.fh_privacy_statement_templates_user</roles>
+        <sys_class_name>sys_app_application</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-15 04:40:26</sys_created_on>
+        <sys_domain>global</sys_domain>
+        <sys_domain_path>/</sys_domain_path>
+        <sys_id>eab6f8572f10211036f1265df699b619</sys_id>
+        <sys_name>FH Privacy Statement templates</sys_name>
+        <sys_overrides/>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sys_app_application_eab6f8572f10211036f1265df699b619</sys_update_name>
+        <title>FH Privacy Statement templates</title>
+        <view_name/>
+    </sys_app_application>
+</record_update>

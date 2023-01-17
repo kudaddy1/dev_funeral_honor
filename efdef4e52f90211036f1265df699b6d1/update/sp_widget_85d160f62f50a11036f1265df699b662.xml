@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sp_widget">
+    <sp_widget action="INSERT_OR_UPDATE">
+        <category>custom</category>
+        <client_script><![CDATA[api.controller=function(spUtil, spModal) {
+	var c = this;
+	
+	/*** init the login widget *******/
+	spUtil.get("mfh-oob-login").then(function(response) {
+		c.mfh_login = response;
+	});
+	
+	/*** init variables that control templates ****/
+	c.privacy1_template = true;
+	c.privacy2_template = false;
+	c.login_template = false;	
+	/**************************************/
+	
+	/**** logic for Privacy1 template **************/
+	c.userAgreementCheck = false;
+	c.PIICheck = false;
+	
+	c.clickInput = function (input_name) {
+		if (input_name=='UserAgreement')
+			c.userAgreementCheck = !c.userAgreementCheck;
+		if (input_name=='PII')
+			c.PIICheck = !c.PIICheck;
+		c.checkContinue();
+	}
+	c.checkContinue = function() {
+		if (c.userAgreementCheck && c.PIICheck)
+			document.querySelector('#continueButton').disabled = false;
+		else
+			document.querySelector('#continueButton').disabled = true;
+	}
+	
+	c.showPrivacy2Template = function () {
+		c.privacy1_template = false;
+		c.privacy2_template = !c.privacy2_template;
+	}
+	/**************************************/
+	
+	/**** logic for Privacy2 template **************/
+
+	c.showLoginTemplate = function(){
+		c.privacy2_template = false;
+		c.login_template = !c.login_template;
+	}
+	/**************************************/
+	
+};]]></client_script>
+        <controller_as>c</controller_as>
+        <css>
+input {
+  margin-right:1rem; 
+}
+.d-flex {
+  display:flex;
+}
+.justify-content-center {
+  justify-content:center;
+}
+.mt-2 {
+  margin-top:2rem;
+}</css>
+        <data_table>sp_instance</data_table>
+        <demo_data/>
+        <description/>
+        <docs/>
+        <field_list/>
+        <has_preview>true</has_preview>
+        <id>mfh-login-2</id>
+        <internal>false</internal>
+        <link><![CDATA[function link(scope, element, attrs, controller) {  }]]></link>
+        <name>mfh-login-2</name>
+        <option_schema/>
+        <public>false</public>
+        <roles/>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
+        <servicenow>false</servicenow>
+        <sys_class_name>sp_widget</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-13 13:52:09</sys_created_on>
+        <sys_id>85d160f62f50a11036f1265df699b662</sys_id>
+        <sys_name>mfh-login-2</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sp_widget_85d160f62f50a11036f1265df699b662</sys_update_name>
+        <template><![CDATA[<div ng-include="'mfh-privacy-1'" ng-if="c.privacy1_template"></div>
+<div ng-include="'mfh-privacy-2'" ng-if="c.privacy2_template"></div>
+
+<div ng-include="'mfh-login2-widget'" ng-if="c.login_template"></div>]]></template>
+    </sp_widget>
+</record_update>

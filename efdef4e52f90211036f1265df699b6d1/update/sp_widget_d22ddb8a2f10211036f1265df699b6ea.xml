@@ -2,20 +2,33 @@
     <sp_widget action="INSERT_OR_UPDATE">
         <category>custom</category>
         <client_script><![CDATA[api.controller=function(spUtil, spModal) {
-    var c = this;
-    spUtil.get("mfh-oob-login").then(function(response) {
-            c.mfh_login = response;
-    });
+	var c = this;
+	spUtil.get("mfh-oob-login").then(function(response) {
+		c.mfh_login = response;
+	});
+
+	c.showModal = false ;
+
+	c.template1 = '<div ng-include="' + "'privacy_statement'" + '"></div>';
 	
 	c.onAlert = function () {
-        spModal.alert('Test Modal').then(function (answer) {
-            c.simple = answer;
-					alert(c.simple);
-        });
-    }
+		spModal.open({
+			title: 'Privacy Statement',
+			message:c.template1,
+			value: c.name,
+		}).then(function(answer) {
+				c.showModal = res;
+		})
+	}
+
+	c.onAlert();
 };]]></client_script>
         <controller_as>c</controller_as>
-        <css/>
+        <css>#modal {
+    height: 500px;
+    background: orange;
+}
+</css>
         <data_table>sp_instance</data_table>
         <demo_data/>
         <description/>
@@ -29,7 +42,11 @@
         <option_schema/>
         <public>false</public>
         <roles/>
-        <script><![CDATA[(function() {  /* populate the 'data' object */  /* e.g., data.table = $sp.getValue('table'); */})();]]></script>
+        <script><![CDATA[(function() {
+  /* populate the 'data' object */
+  /* e.g., data.table = $sp.getValue('table'); */
+
+})();]]></script>
         <servicenow>false</servicenow>
         <sys_class_name>sp_widget</sys_class_name>
         <sys_created_by>admin</sys_created_by>
@@ -40,12 +57,9 @@
         <sys_policy/>
         <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
         <sys_update_name>sp_widget_d22ddb8a2f10211036f1265df699b6ea</sys_update_name>
-        <template><![CDATA[<div>
-  <sp-widget widget="c.mfh_login" ></sp-widget>
-</div> 
-
-<button ng-click="c.onAlert()" class="btn btn-default">
-    Alert
-  </button>]]></template>
+        <template><![CDATA[<div id="modal" ng-show="c.showModal">
+  <sp-widget widget="c.mfh_login"></sp-widget>
+</div>
+]]></template>
     </sp_widget>
 </record_update>

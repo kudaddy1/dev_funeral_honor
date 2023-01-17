@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl">
+    <sys_security_acl action="DELETE">
+        <active>true</active>
+        <admin_overrides>true</admin_overrides>
+        <advanced>false</advanced>
+        <condition/>
+        <description>Default access control on x_491306_fh_fh_privacy_statement_templates</description>
+        <name>x_491306_fh_fh_privacy_statement_templates</name>
+        <operation display_value="write">write</operation>
+        <script/>
+        <sys_class_name>sys_security_acl</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-15 04:40:27</sys_created_on>
+        <sys_id>bab6f8572f10211036f1265df699b63d</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_491306_fh_fh_privacy_statement_templates</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_update_name>sys_security_acl_bab6f8572f10211036f1265df699b63d</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-15 04:40:27</sys_updated_on>
+        <type display_value="record">record</type>
+    </sys_security_acl>
+    <sys_update_version action="INSERT_OR_UPDATE">
+        <action>DELETE</action>
+        <application display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</application>
+        <file_path/>
+        <instance_id>0a1e6c88db32d740536ad5b0cf96191c</instance_id>
+        <instance_name>dev61350</instance_name>
+        <name>sys_security_acl_bab6f8572f10211036f1265df699b63d</name>
+        <payload><![CDATA[<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_security_acl"><sys_security_acl action="INSERT_OR_UPDATE"><active>true</active><admin_overrides>true</admin_overrides><advanced>false</advanced><condition/><description>Default access control on x_491306_fh_fh_privacy_statement_templates</description><name>x_491306_fh_fh_privacy_statement_templates</name><operation display_value="write">write</operation><script/><sys_class_name>sys_security_acl</sys_class_name><sys_created_by>admin</sys_created_by><sys_created_on>2023-01-15 04:40:27</sys_created_on><sys_id>bab6f8572f10211036f1265df699b63d</sys_id><sys_mod_count>0</sys_mod_count><sys_name>x_491306_fh_fh_privacy_statement_templates</sys_name><sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package><sys_policy/><sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope><sys_update_name>sys_security_acl_bab6f8572f10211036f1265df699b63d</sys_update_name><sys_updated_by>admin</sys_updated_by><sys_updated_on>2023-01-15 04:40:27</sys_updated_on><type display_value="record">record</type></sys_security_acl></record_update>]]></payload>
+        <payload_hash>218511502</payload_hash>
+        <record_name>x_491306_fh_fh_privacy_statement_templates</record_name>
+        <reverted_from/>
+        <source>d68f9f162fdc211036f1265df699b6f5</source>
+        <source_table>sys_update_set</source_table>
+        <state>previous</state>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-15 04:40:27</sys_created_on>
+        <sys_id>fab6f8572f10211036f1265df699b63f</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_recorded_at>185b3ba94df0000001</sys_recorded_at>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2023-01-15 04:40:27</sys_updated_on>
+        <type>Access Control</type>
+        <update_guid>36b6f857b210211082d10bef3a541a3f</update_guid>
+        <update_guid_history>36b6f857b210211082d10bef3a541a3f:218511502</update_guid_history>
+    </sys_update_version>
+    <sys_metadata_delete action="INSERT_OR_UPDATE">
+        <sys_audit_delete/>
+        <sys_class_name>sys_metadata_delete</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2023-01-15 04:44:35</sys_created_on>
+        <sys_db_object display_value="" name="sys_security_acl">sys_security_acl</sys_db_object>
+        <sys_id>845f43c45a264eebb2ee0c7c40f8a121</sys_id>
+        <sys_metadata>bab6f8572f10211036f1265df699b63d</sys_metadata>
+        <sys_name>x_491306_fh_fh_privacy_statement_templates</sys_name>
+        <sys_package display_value="Funeral Honors Portal" source="x_491306_fh">efdef4e52f90211036f1265df699b6d1</sys_package>
+        <sys_parent display_value="">3eb6f8572f10211036f1265df699b647</sys_parent>
+        <sys_policy/>
+        <sys_scope display_value="Funeral Honors Portal">efdef4e52f90211036f1265df699b6d1</sys_scope>
+        <sys_scope_delete display_value="">11c2586671fe4eb284b39a303775e1d9</sys_scope_delete>
+        <sys_update_name>sys_security_acl_bab6f8572f10211036f1265df699b63d</sys_update_name>
+        <sys_update_version display_value="sys_security_acl_bab6f8572f10211036f1265df699b63d">fab6f8572f10211036f1265df699b63f</sys_update_version>
+    </sys_metadata_delete>
+</record_update>
